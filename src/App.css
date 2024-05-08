@@ -1,0 +1,20 @@
+body {
+  margin:0px; 
+  background-color: #747bff;
+  /* display: flex;
+  place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  background-color: #d21a1a;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+
+
+
