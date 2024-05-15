@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
+import '../styles/firstcontainer.css';
+ // Import the Services component
+import gggImage from '/assets/hhh.png';
+import Services from './services';
 
-const Firstcontainer = () => {
+const FirstContainer = () => {
   return (
-    <div className="first-container" style={{ backgroundColor: '#333', color: '#fff', padding: '20px' }}>
-      <p>This is the First Container</p>
+    
+    <div className="first-container">
+      <h1 className="heading-3d">Services</h1>
+      <img src={gggImage} alt="GGG Image" />
+
+      {/* Render the Services component */}
+      <Services />
     </div>
-  )
+  );
 }
 
-export default Firstcontainer
+export default FirstContainer;

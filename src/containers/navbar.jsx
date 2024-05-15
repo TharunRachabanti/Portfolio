@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/navbar.css';
-import profileImage from '/assets/mine2.png';
+import profileImage from '/assets/tharun.png';
 import { FaInstagram, FaEnvelope, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 const Navbar = () => {
