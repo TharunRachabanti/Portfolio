@@ -1,16 +1,11 @@
 .servicesContainer {
-  margin-top: -40px;
-  padding-top: 10px;
-  display: flex;
+  display:flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* Updated background */
-  background-size: 28px 28px;
-  overflow-x: auto;
-  flex-wrap: nowrap;
+  padding: 0px;
+  
+ 
+  flex-wrap: wrap;
 }
 
 .serviceCard {
@@ -19,46 +14,65 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background: linear-gradient(to right, #7a85be, #898ec4);
+  background: rgba(255, 255, 255, 0.2);
+    
+  /* background-color: rgb(255, 255, 255); */
+  
+  backdrop-filter: blur(10px); /* Blur effect */
   border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  margin: 1px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Optional border for better visibility */
 }
 
-.serviceCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
 
 .serviceLogoContainer {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 15px;
-  background-color: #fff;
-  border: 5px solid #f0f0f0;
-  border-radius: 50%;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  width: 0%;
+  height: 0%;
+  border-radius: 1%;
   overflow: hidden;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .serviceLogo {
-  width: 80%; /* Changed from max-width to width for consistency */
-  height: auto; /* Ensure the logo maintains its aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceContent {
+  z-index: 2;
 }
 
 .serviceTitle {
   margin: 10px 0;
-  font-size: 1.8em;
-  color: #fff; /* Changed to white for better contrast */
+  font-size: 1.5em;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Added text shadow for depth */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .serviceDescription {
-  text-align: center;
   font-size: 1em;
-  color: #dcdcdc; /* Lighter shade for a softer look */
-  margin: 0 10px;
+  line-height: 1.5;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.serviceCard:hover .serviceLogo {
+  transform: scale(1.1);
 }

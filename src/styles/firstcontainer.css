@@ -1,9 +1,10 @@
 
 .first-container {
-  background: linear-gradient(135deg, #e6e9f0 25%, #eef1f5 25%, #eef1f5 50%, #e6e9f0 50%, #e6e9f0 75%, #eef1f5 75%, #eef1f5); /* Updated background */ /* Blue to Green */
+  /* background: linear-gradient(135deg, #e6e9f0 25%, #eef1f5 25%, #eef1f5 50%, #e6e9f0 50%, #e6e9f0 75%, #eef1f5 75%, #eef1f5);  */
+  background-color:#032131;
     color: #000000;
     padding: 20px;
-    height: 1000px;
+    height: 1050px;
   }
   
 
@@ -17,7 +18,7 @@
   /* Example 3D text styling */
 
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 60px;
   color: #ffffff;
 
   background: linear-gradient(to right, #ff416c, #ff4b2b);

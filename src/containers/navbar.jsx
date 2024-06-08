@@ -65,7 +65,7 @@ const Navbar = () => {
 development. Proficient in Java, Python, Dart, and various development frameworks. Adept at designing and 
 implementing robust, scalable solutions. Strong problem-solving skills and a quick learner.</p>
           <button>Hire Me</button>
-          <div className="navbar-socials">
+          {/* <div className="navbar-socials">
             <a
               href="https://www.instagram.com/yourusername"
               target="_blank"
@@ -90,7 +90,7 @@ implementing robust, scalable solutions. Strong problem-solving skills and a qui
             >
               <FaFacebook />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="navbar-image">
           <img src={profileImage} alt="Profile" />

@@ -5,7 +5,8 @@ import Secondcontainer from "./containers/secondcontainer";
 import Navbar from "./containers/navbar";
 import Projects from "./containers/projects";
 import Aboutme from "./containers/aboutme";
-
+import LastContainer from "./containers/lastcontainer";
+ 
 
 
 
@@ -18,8 +19,9 @@ function App() {
       <Projects />
       <Aboutme />
       
-    <Firstcontainer />
+    
     <Secondcontainer />
+    <LastContainer/>
     </React.Fragment>
   )
 }

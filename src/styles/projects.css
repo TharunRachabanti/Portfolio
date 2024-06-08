@@ -1,5 +1,6 @@
 .projects-container {
-  background: linear-gradient(to right,#ffffff,#ffffff);
+  /* background: linear-gradient(to right,#000000,#000000); */
+  background-color:#032131;
   padding: 5% 10%;
 }
 
@@ -10,13 +11,14 @@
 }
 
 .portfolio-heading {
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  color: #032131; /* Dark blue color */
-  margin-bottom: 30px; /* Add spacing below the heading */
-  text-transform: uppercase; /* Convert text to uppercase */
-  letter-spacing: 2px; /* Add letter spacing for a stylish look */
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #ffffff;
+
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add letter spacing for a stylish look */
 }
 
 
