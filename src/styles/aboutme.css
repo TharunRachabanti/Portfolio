@@ -44,7 +44,7 @@
     width: 50%;
     padding-top: 1%;
     position: relative;
-    height: 380px;
+    height: 450px;
     background: linear-gradient(270deg, #032131 10%, #ffffff 100%);
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@
   .profile-image {
     padding: 0px;
     width: 350px;
-    height: 400px;
+    height: 450px;
     border-radius: 0%;
     
     object-fit: cover;
@@ -84,8 +84,8 @@
   
   .description {
     font-family:'Times New Roman', Times, serif;
-    font-size: 1.1rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.3;
     color: #ffffff;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); */
     margin: 0;
@@ -95,8 +95,8 @@
   
   .description1 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 1.1rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.2;
     color: #ffffff;
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); */
     margin: 0;

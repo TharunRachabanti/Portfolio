@@ -36,7 +36,8 @@ button {
 
 button.active,
 button:hover {
-  background-color:#032131;
+  /* background-color:#2098d9; */
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
   color: #fff;
 }
 

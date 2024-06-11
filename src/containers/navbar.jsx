@@ -9,7 +9,7 @@ const Navbar = () => {
   const jobs = [
     'Software Developer',
     'Website Development',
-    'Application Devloper',
+    'Application Developer',
     'Front-End Developer',
     'Backend Development',
   ];
@@ -61,36 +61,8 @@ const Navbar = () => {
         <div className="navbar-info">
           <h1>I'm Tharun Rachabanti</h1>
           <b key={jobIndex} className="job-title-animation">{jobs[jobIndex]}</b>
-          <p>Passionate and innovative Software Developer with real-time experience in full-stack web and mobile app 
-development. Proficient in Java, Python, Dart, and various development frameworks. Adept at designing and 
-implementing robust, scalable solutions. Strong problem-solving skills and a quick learner.</p>
+          <p>Passionate and innovative Software Developer with real-time experience in full-stack web and mobile app development. Proficient in Java, Python, Dart, and various development frameworks. Adept at designing and implementing robust, scalable solutions. Strong problem-solving skills and a quick learner.</p>
           <button>Hire Me</button>
-          {/* <div className="navbar-socials">
-            <a
-              href="https://www.instagram.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram />
-            </a>
-            <a href="mailto:your.email@example.com">
-              <FaEnvelope />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://www.facebook.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook />
-            </a>
-          </div> */}
         </div>
         <div className="navbar-image">
           <img src={profileImage} alt="Profile" />
